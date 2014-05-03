@@ -75,5 +75,5 @@ Unix pipes and much more is explained in
 Status
 ----------------
 
-This is an old project of mine and I don't maintain it anymore. I've just put it to GitHub to keep it somewhere.
+This is an old project of mine (from 2006) and I don't maintain it anymore. I've just put it to GitHub to keep it somewhere.
 
