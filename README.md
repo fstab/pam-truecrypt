@@ -10,7 +10,7 @@ run `make`
 
 copy `pam_truecrypt.so` to `/lib/security/`
 
-Note that you need to install the development files for PAM.
+_Note that you need to install the development files for PAM._
 
 Prerequisites
 ----------------
@@ -30,7 +30,7 @@ Attention: If you try this, the password will be stored in `/root/.bash_history`
 
 The configuration file for pam authentication is `/etc/pam.d/common-auth`,
 the configuration file for pam sessions is `/etc/pam.d/common-session`.
-(You might have a single configuration file in `/etc/pam.conf`. This is OK.)
+(_You might have a single configuration file in `/etc/pam.conf`. This is OK._)
 
 Configuration
 ----------------
@@ -43,8 +43,7 @@ Edit `/etc/pam.d/common-session` and add the following line:
 
 	session required pam_truecrypt.so fabian /dev/hda6 /home/fabian
 
-DON'T log out now. Press ALT-CTRL-F1 and try if the login works.
-If something is wrong, delete the new config.
+*Don't* log out now. Press ALT-CTRL-F1 and try if the login works. If something is wrong, delete the new config.
 
 Debug
 ----------------
